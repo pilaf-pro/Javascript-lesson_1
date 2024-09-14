@@ -71,31 +71,31 @@
 // myFunction();
 
 // 3.Object
-const vehicleOne = {
-    brand: 'Ford',
-    model: 'Mustang',
-    type: 'car',
-    year: 2021, 
-    color: 'red'
-  }
+// const vehicleOne = {
+//     brand: 'Ford',
+//     model: 'Mustang',
+//     type: 'car',
+//     year: 2021, 
+//     color: 'red'
+//   }
 
-  console.log(typeof vehicleOne);
+//   console.log(typeof vehicleOne);
   
-  myVehicle1(vehicleOne);
+//   myVehicle1(vehicleOne);
   
-  function myVehicle1(vehicle) {
-    const message = 'My ' + vehicle.type + ' is a ' + vehicle.color + ' ' + vehicle.brand + ' ' + vehicle.model + '.';
+//   function myVehicle1(vehicle) {
+//     const message = 'My ' + vehicle.type + ' is a ' + vehicle.color + ' ' + vehicle.brand + ' ' + vehicle.model + '.';
   
-    document.getElementById("demo").innerHTML = message;
-  }
+//     document.getElementById("demo").innerHTML = message;
+//   }
 
-  myVehicle(vehicleOne);
+//   myVehicle(vehicleOne);
   
-  function myVehicle({type, color, brand, model}) {
-    const message = 'My ' + type + ' is a ' + color + ' ' + brand + ' ' + model + '.';
+//   function myVehicle({type, color, brand, model}) {
+//     const message = 'My ' + type + ' is a ' + color + ' ' + brand + ' ' + model + '.';
   
-    document.getElementById("demo2").innerHTML = message;
-  }
+//     document.getElementById("demo2").innerHTML = message;
+//   }
 
 //   function calculate(a, b) {
 //     const add = a + b;
