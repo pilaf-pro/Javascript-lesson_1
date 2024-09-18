@@ -27,6 +27,10 @@
 //     alert('Thong bao');
 // }, 1000)
 
+// setTimeout(() => {
+//     alert('Thong bao');
+// }, 1000)
+
 // 5.Ham Set interval
 // setInterval(function() {
 //     console.log('Day la log' + Math.random())
